@@ -1,14 +1,14 @@
 === Medium Editor ===
 Contributors: stefanpejcic
-Tags: medium, editor, inline, WYSIWYG, frontend
-Donate link: http://giga.rs
+Tags: medium, editor, inline, WYSIWYG, frontend,, edit, simple
+Donate link: https://giga.rs
 Requires at least: 4.0
 Tested up to: 5.2
 Stable tag: 5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Inline post editor inspired by Medium.com editor
+Inline post editor inspired by the simplicity of Medium.com editor
 
 == Description ==
 
