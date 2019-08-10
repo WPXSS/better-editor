@@ -77,9 +77,9 @@ function GigamediumeditorUpdatePost()
 {
     if (current_user_can("edit_pages") && current_user_can("edit_posts"))
     {
-        $post_id = $_POST["post_ID"];
-        $post_title = str_replace(array("<p>", "</p>", "<br>"), "", $_POST["post_title"]);
-        $post_content = str_replace(array("\'", '\"'), '"', $_POST["post_content"]);
+        $post_id = sanitize_text_field($_POST["post_ID"]);
+        $post_title = esc_html($_POST["post_title"]);
+        $post_content = esc_html($_POST["post_content"]);
         $post = get_post($post_id);
         $post->post_title = $post_title;
         $post->post_content = $post_content;
