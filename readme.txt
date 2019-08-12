@@ -1,7 +1,7 @@
-=== Medium Editor ===
+=== Better Editor ===
 Contributors: stefanpejcic
-Tags: medium, editor, inline, WYSIWYG, frontend,, edit, simple
-Donate link: https://giga.rs
+Tags: medium, better, editor, inline, WYSIWYG, frontend,, edit, simple
+Donate link: https://giga.rs/
 Requires at least: 4.0
 Tested up to: 5.2
 Stable tag: 5.2
