@@ -1,6 +1,6 @@
 <?php  
 /* 
-Plugin Name: Medium Editor
+Plugin Name: Better Editor
 Description: Inline post editor inspired by Medium.com editor
 Version: 1.0.0
 Author: Stefan Pejcic
@@ -78,8 +78,8 @@ function GigamediumeditorUpdatePost()
     if (current_user_can("edit_pages") && current_user_can("edit_posts"))
     {
         $post_id = sanitize_text_field($_POST["post_ID"]);
-        $post_title = esc_html($_POST["post_title"]);
-        $post_content = esc_html($_POST["post_content"]);
+        $post_title = sanitize_text_field($_POST["post_title"]);
+        $post_content = sanitize_textarea_field($_POST["post_content"]);
         $post = get_post($post_id);
         $post->post_title = $post_title;
         $post->post_content = $post_content;
