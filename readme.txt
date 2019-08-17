@@ -1,10 +1,10 @@
 === Better Editor ===
-Contributors: stefanpejcic, pluginsbay, wporb
+Contributors: stefanpejcic, WPorb, PluginsBay
 Tags: medium, better, editor, inline, WYSIWYG, frontend,, edit, simple
 Donate link: https://giga.rs/
 Requires at least: 4.0
-Tested up to: 5.2
-Stable tag: 5.2
+Tested up to: 5.3
+Stable tag: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
