@@ -1,5 +1,9 @@
 === Better Editor ===
+<<<<<<< HEAD
 Contributors: stefanpejcic, WPorb, PluginsBay
+=======
+Contributors: stefanpejcic
+>>>>>>> b36d055cbf955906816560c593df0dee7437a779
 Tags: medium, better, editor, inline, WYSIWYG, frontend,, edit, simple
 Donate link: https://giga.rs/
 Requires at least: 4.0
