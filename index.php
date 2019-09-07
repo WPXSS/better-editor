@@ -91,4 +91,26 @@ function GigamediumeditorUpdatePost()
 add_action("init", "GigamediumeditorInit");
 add_action("wp_ajax_update", "GigamediumeditorUpdatePost");
 add_action("wp", "GigamediumeditorPrepare");
-?>
+
+/*Disable Gutenberg Editor*/
+if (!class_exists('MediumEditor')) {
+	
+	class MediumEditor {
+		
+		function __construct() {
+			
+			$this->plugin_setting_file_include();
+			add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'MediumEditor_action_links' );			
+		}
+
+		function plugin_setting_file_include(){
+			require_once plugin_dir_path(__FILE__) .'inc/plugin_setting.php';
+		}
+		
+			
+		
+	}
+	
+	$MediumEditor = new MediumEditor(); 
+	
+}
